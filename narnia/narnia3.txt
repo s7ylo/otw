@@ -1,0 +1,7 @@
+password for level 4 : thaenohtai
+
+the idea is to create a path big enough to overflow the output file so that the input file path will be over written by user input
+then, the last part of the big path will be a valid file path that will be a symbolic link to the actual file to read from
+/tmp/cc/aaaaaaaaaaaaaaaaaaaaaaaa/tmp/cc/output3
+
+
