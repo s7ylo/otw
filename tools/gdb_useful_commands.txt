@@ -1,3 +1,6 @@
 b main
 set disassembly-flavor intel
 set disassemble-next-line on
+def hook-stop
+disas $eip,$eip+15
+end
