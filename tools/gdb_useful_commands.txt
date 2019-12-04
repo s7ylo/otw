@@ -2,5 +2,11 @@ b main
 set disassembly-flavor intel
 set disassemble-next-line on
 def hook-stop
+printf "\n"
+printf "------------------------------------------------------------\n"
+printf " eax=0x%08x ebx=0x%08x ecx=0x%08x edx=0x%08x\n", $eax, $ebx, $ecx, $edx
+printf " edi=0x%08x esi=0x%08x ebp=0x%08x esp=0x%08x\n", $edi, $esi, $ebp, $esp
+printf " eip=0x%08x\n", $eip
+printf "------------------------------------------------------------\n\n"
 disas $eip,$eip+15
 end

